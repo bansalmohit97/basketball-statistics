@@ -1,0 +1,297 @@
+SELECT * FROM [RAW_LeaguesBasketBall_20210721]
+WHERE
+LEN([birth_year])>4
+--287 records affected
+
+287 records where the format of birth_year doesnot match the required format
+
+
+
+RowNumber	League	Season	Stage	Player	Team	GP	MIN	FGM	FGA	3PM	3PA	FTM	FTA	TOV	PF	ORB	DRB	REB	AST	STL	BLK	PTS	birth_year	birth_month	birth_date	height	height_cm	weight	weight_kg	nationality	high_school	draft_round	draft_pick	draft_team
+32777	Belarusian-BPL	2016 - 2017	International	Aleksey Navoyckik	GRGU	34	1153.4	210	568	57	218	93	141	92	80	35	106	141	39	53	11	570	Jan-20	Apr	2001-04-10	6-3	191	N/A		Belarus				
+37106	Belarusian-BPL	2017 - 2018	International	Daniil Barysevich	RCOP	44	1274.3	247	608	37	122	141	196	145	91	47	139	186	106	61	10	672	Jan-20	Jan	2001-01-06	6-6	198	165	75	Belarus				
+37128	Belarusian-BPL	2017 - 2018	International	Alex Tsynkevich	RCOP	43	1056.8	152	324	0	0	53	136	116	88	87	182	269	40	29	8	357	Jan-20	Oct	2001-10-23	6-9	206	N/A		Belarus				
+37133	Belarusian-BPL	2017 - 2018	International	Raman Hests	RCOP	35	798.3	115	304	17	66	74	94	95	100	62	124	186	71	40	10	321	Jan-20	Jan	2001-01-25	6-6	198	192	87	Belarus				
+37158	Belarusian-BPL	2017 - 2018	International	Yegor Kranin	GRGU	48	827.7	45	144	0	2	15	30	40	88	57	88	145	14	13	4	105	Jan-20	May	2001-05-25	6-7	201	N/A		Belarus				
+41965	Belarusian-BPL	2018 - 2019	International	Roman Gest	RCOP	26	812.0	161	395	35	121	124	164	129	66	44	90	134	92	49	6	481	Jan-20	Jan	2001-01-25	6-6	198	N/A		Belarus				
+41974	Belarusian-BPL	2018 - 2019	International	Alex Tsynkevich	RCOP	23	661.2	167	308	3	9	41	85	46	45	82	129	211	36	23	13	378	Jan-20	Oct	2001-10-23	6-9	206	N/A		Belarus				
+41975	Belarusian-BPL	2018 - 2019	International	Sergey Lemeshevskiy	GRGU	28	763.6	141	333	16	74	76	123	123	67	27	93	120	52	44	36	374	Jan-20	Apr	2001-04-17	6-4	193	N/A		Belarus				
+41982	Belarusian-BPL	2018 - 2019	International	Dmitriy Mahnach	GRGU	27	601.2	98	256	17	62	84	103	165	76	32	73	105	108	50	2	297	Jan-20	Feb	2001-02-11	5-10	178	N/A		Belarus				
+41990	Belarusian-BPL	2018 - 2019	International	Jan Marynin	RCOP	23	658.0	106	263	12	57	39	63	89	80	54	104	158	46	38	37	263	Jan-20	Jan	2001-01-24	6-6	198	N/A		Belarus				
+42002	Belarusian-BPL	2018 - 2019	International	Arseniy Tugarinov	RCOP	28	692.8	78	202	11	37	16	32	62	58	62	123	185	40	30	8	183	Feb-20	Sep	2002-09-04	6-6	198	N/A		Belarus				
+42005	Belarusian-BPL	2018 - 2019	International	Timofey Karpuk	RCOP	28	588.1	55	195	22	98	13	27	90	70	17	63	80	62	46	10	145	Feb-20	Dec	2002-12-02	6-1	185	N/A		Belarus				
+42008	Belarusian-BPL	2018 - 2019	International	Nikita Prokopenko	SOZ	25	464.8	49	130	21	62	15	23	36	52	19	32	51	21	26	4	134	Jan-20	Apr	2001-04-03	6-1	185	N/A		Belarus				
+42011	Belarusian-BPL	2018 - 2019	International	Yegor Kranin	GRGU	28	648.9	52	137	0	2	19	39	41	70	72	75	147	20	18	5	123	Jan-20	May	2001-05-25	6-7	201	N/A		Belarus				
+42013	Belarusian-BPL	2018 - 2019	International	Vladislav Zhmailik	GRGU	27	747.4	45	125	3	16	9	22	39	58	37	108	145	31	39	10	102	Feb-20	May	2002-05-16	6-4	193	N/A		Belarus				
+42014	Belarusian-BPL	2018 - 2019	International	Nikita Matsal	IMP	27	487.7	35	114	10	55	20	38	54	57	22	40	62	78	39	4	100	Jan-20	Mar	2001-03-27	6-6	198	180	82	Belarus				
+42015	Belarusian-BPL	2018 - 2019	International	Taras Metezh	RCOP	22	421.5	39	112	0	3	21	56	45	41	6	35	41	43	15	4	99	Feb-20	Apr	2002-04-24	6-2	188	N/A		Belarus				
+42019	Belarusian-BPL	2018 - 2019	International	Sergey Fedorchuk	BSEU	26	446.4	21	107	8	49	13	29	72	51	8	39	47	44	17	1	63	Feb-20	Jul	2002-07-29	6-3	191	N/A		Belarus				
+42022	Belarusian-BPL	2018 - 2019	International	Ernest Shundryk	GRGU	9	180.8	17	76	6	37	10	16	42	22	2	14	16	18	12	3	50	Jan-20	May	2001-05-03	6-2	188	N/A		Belarus				
+43004	Estonian-Latvian-Basketball-League	2018 - 2019	International	Leemet Loik	KLV	27	573.6	70	171	27	68	18	22	48	39	19	61	80	30	23	2	185	Jan-20	Apr	2001-04-07	6-3	191	185	84	Estonia				
+43029	Estonian-Latvian-Basketball-League	2018 - 2019	International	Davis Denafs	JEK	23	422.6	30	74	6	17	25	36	37	60	11	29	40	22	13	0	91	Feb-20	Mar	2002-03-25	6-2	188	200	91	Latvia				
+43119	Eurocup	2018 - 2019	International	Theo Maledon	LYV	18	319.6	38	93	13	37	38	46	30	44	13	30	43	38	8	3	127	Jan-20	Jun	2001-06-12	6-5	196	198	90	France		2	4	Philadelphia Sixers
+43766	French-Jeep-Elite	2018 - 2019	International	Theo Maledon	LYV	43	729.0	92	196	34	86	72	83	63	97	11	73	84	85	33	7	290	Jan-20	Jun	2001-06-12	6-5	196	198	90	France		2	4	Philadelphia Sixers
+43786	French-Jeep-Elite	2018 - 2019	International	Killian Hayes	CHO	34	671.0	93	218	14	77	41	50	56	83	10	69	79	106	32	6	241	Jan-20	Jul	2001-07-27	6-5	196	216	98	France / United States		1	7	Detroit Pistons
+44603	Kosovo-FBK	2018 - 2019	International	Albin Berisha	BORE	15	394.5	71	161	3	32	27	40	54	46	19	37	56	44	19	1	172	Feb-20	Mar	2002-03-20	6-2	188	176	80	Kosovo				
+45497	Netherlands-DBL	2018 - 2019	International	Rienk Mast	GRON	35	684.0	122	248	34	88	21	28	46	28	46	101	147	41	13	3	299	Jan-20	Jul	2001-07-19	6-9	206	230	104	Netherlands				
+45941	Serbian-KLS	2018 - 2019	International	Aleksandar Langovic	BEO	29	752.4	97	211	17	62	41	57	27	64	56	102	158	21	13	16	252	Jan-20	Feb	2001-02-19	6-9	206	205	93	Serbia				
+45971	Serbian-KLS	2018 - 2019	International	Dusan Tanaskovic	ZEM	20	444.5	68	139	0	0	27	43	37	61	47	73	120	32	11	32	163	Jan-20	Feb	2001-02-23	6-10	208	228	103	Serbia				
+46836	Argentinian-Liga-A	2019 - 2020	International	Facundo Tolosa	WBE	14	140.6	32	78	21	54	30	35	8	12	1	12	13	5	6	2	115	Feb-20	Apr	2002-04-12	6-0	183	N/A		Argentina				
+46860	Argentinian-Liga-A	2019 - 2020	International	Bautista Lugarini	WBE	16	297.4	30	87	17	58	6	6	10	29	5	54	59	15	9	3	83	Jan-20	Jan	2001-01-31	6-6	198	178	81	Argentina				
+46893	Argentinian-Liga-A	2019 - 2020	International	Agustin Cavallin	ARG	12	43.4	0	4	0	4	0	0	0	7	0	1	1	0	0	0	0	Jan-20	Jul	2001-07-04	6-2	188	N/A		Argentina				
+46949	Australian-NBL	2019 - 2020	International	Killian Hayes	RUL	20	500.0	84	169	12	55	52	61	69	60	10	52	62	105	27	4	232	Jan-20	Jul	2001-07-27	6-5	196	216	98	France / United States		1	7	Detroit Pistons
+47067	Australian-NBL	2019 - 2020	International	Justus Hollatz	HAM	18	289.6	18	48	3	23	10	15	27	23	10	12	22	40	29	4	49	Jan-20	Apr	2001-04-21	5-11	180	150	68	Germany				
+47068	Australian-NBL	2019 - 2020	International	Ariel Hukporti	LUD	22	162.8	16	34	0	0	16	29	10	36	15	30	45	1	4	9	48	Feb-20	Apr	2002-04-12	7-0	213	250	113	Germany / Togo				
+47074	Australian-NBL	2019 - 2020	International	Len Schoormann	FRA	12	117.6	11	35	3	13	9	14	19	18	2	8	10	12	3	0	34	Feb-20	Jul	2002-07-25	6-5	196	178	81	Germany				
+47075	Australian-NBL	2019 - 2020	International	Jacob Patrick	LUD	10	88.3	11	24	6	14	2	3	4	9	2	6	8	2	1	0	30	Mar-20	Nov	2003-11-21	6-6	198	N/A		Germany				
+47076	Australian-NBL	2019 - 2020	International	Luc Van Slooten	RAS	11	89.9	7	24	6	22	9	13	2	4	4	8	12	5	4	0	29	Feb-20	Apr	2002-04-17	6-8	203	219	99	Germany				
+47077	Australian-NBL	2019 - 2020	International	Lukas Herzog	LUD	11	76.1	7	17	3	13	8	9	1	7	0	6	6	1	3	0	25	Jan-20	Sep	2001-09-10	6-2	188	172	78	Germany				
+47079	Australian-NBL	2019 - 2020	International	Radii Caisin	LUD	18	117.6	8	17	2	10	5	7	4	17	5	10	15	3	7	1	23	Jan-20	Feb	2001-02-27	6-6	198	215	98	Germany				
+47080	Australian-NBL	2019 - 2020	International	Malte Delow	BER	14	116.7	8	28	4	14	2	2	4	14	4	12	16	7	4	1	22	Jan-20	Apr	2001-04-22	6-6	198	170	77	Germany				
+47173	Austrian-A-Bundesliga	2019 - 2020	International	Elvir Jakupovic	RAI	20	162.1	10	26	4	17	6	12	6	39	3	13	16	14	3	2	30	Jan-20	Oct	2001-10-09	6-0	183	N/A		Austria				
+47176	Austrian-A-Bundesliga	2019 - 2020	International	David Votsch	KAP	13	80.9	9	15	5	7	0	1	2	12	5	2	7	1	2	0	23	Jan-20	Oct	2001-10-01	6-6	198	N/A		Austria				
+47182	Austrian-A-Bundesliga	2019 - 2020	International	Sebastian Lesny	ATL	12	82.4	5	13	1	6	1	2	3	3	0	5	5	5	5	0	12	Jan-20	Sep	2001-09-15	6-1	185	N/A		Austria				
+47183	Austrian-A-Bundesliga	2019 - 2020	International	Stefan Blazevic	OBE	15	113.1	5	18	1	8	1	4	7	16	3	13	16	10	6	4	12	Feb-20	Jan	2002-01-05	6-6	198	N/A		Austria				
+47185	Austrian-A-Bundesliga	2019 - 2020	International	Jonathan Wess	GRZ	10	15.8	2	5	0	2	2	2	1	1	0	0	0	1	0	0	6	Mar-20	Aug	2003-08-08	6-2	188	N/A		Austria				
+47219	Belarusian-BPL	2019 - 2020	International	Timofey Karpuk	RCOP	21	614.3	106	357	51	195	60	103	94	59	19	86	105	77	66	11	323	Feb-20	Dec	2002-12-02	6-1	185	N/A		Belarus				
+47221	Belarusian-BPL	2019 - 2020	International	Sergey Lemeshevskiy	GRGU	21	615.0	115	285	25	111	62	91	72	50	25	102	127	55	40	26	317	Jan-20	Apr	2001-04-17	6-4	193	N/A		Belarus				
+47222	Belarusian-BPL	2019 - 2020	International	Aleksandr Kalugin	GRGU	20	551.8	99	243	54	129	59	87	68	50	20	38	58	52	50	8	311	Jan-20	Oct	2001-10-27	6-1	185	188	85	Belarus				
+47231	Belarusian-BPL	2019 - 2020	International	Vladislav Vinnikov	RCOP	22	628.5	110	197	0	0	29	38	30	51	82	73	155	35	29	15	249	Feb-20	Sep	2002-09-27	6-6	198	N/A		Belarus				
+47232	Belarusian-BPL	2019 - 2020	International	Timur Michailov	RGU	14	447.2	82	205	25	73	60	74	46	43	32	80	112	32	28	11	249	Apr-20	Jan	2004-01-21	6-5	196	N/A		Belarus				
+47237	Belarusian-BPL	2019 - 2020	International	Nikita Lagun	RCOP	17	450.1	96	216	12	49	28	49	52	69	28	61	89	40	27	4	232	Jan-20	Apr	2001-04-07	6-5	196	143	65	Belarus				
+47240	Belarusian-BPL	2019 - 2020	International	Aleksey Navoyckik	TM2	22	496.1	79	211	36	106	24	36	39	63	11	44	55	39	21	3	218	Jan-20	Apr	2001-04-10	6-3	191	N/A		Belarus				
+47242	Belarusian-BPL	2019 - 2020	International	Daniil Kosko	RGU	14	426.0	70	166	19	64	38	55	42	29	28	73	101	28	26	2	197	Apr-20	Mar	2004-03-21	6-3	191	N/A		Belarus				
+47243	Belarusian-BPL	2019 - 2020	International	Dmitriy Mahnach	GRGU	19	450.5	65	170	22	67	42	53	114	50	16	61	77	66	41	0	194	Jan-20	Feb	2001-02-11	5-10	178	N/A		Belarus				
+47246	Belarusian-BPL	2019 - 2020	International	Daniil Borisevich	TM2	15	368.4	66	160	11	52	33	48	26	31	15	41	56	33	24	3	176	Jan-20	Jan	2001-01-06	6-9	206	N/A		Belarus				
+47247	Belarusian-BPL	2019 - 2020	International	Nikita Godun	III	24	770.1	71	163	1	12	32	51	59	54	58	115	173	40	39	7	175	Jan-20	May	2001-05-02	6-7	201	N/A		Belarus				
+47248	Belarusian-BPL	2019 - 2020	International	Mikita Dashkevich	RCOP	20	443.2	52	144	23	84	43	69	50	47	12	32	44	60	35	0	170	Jan-20	Jun	2001-06-15	5-9	175	N/A		Belarus				
+47250	Belarusian-BPL	2019 - 2020	International	Kirill Vaskovtsov	III	18	423.3	58	165	11	49	37	53	55	38	17	83	100	21	23	3	164	Mar-20	Aug	2003-08-15	6-7	201	N/A		Belarus				
+47251	Belarusian-BPL	2019 - 2020	International	Roman Gest	TM2	21	516.6	44	115	23	64	50	61	28	61	20	64	84	29	20	6	161	Jan-20	Jan	2001-01-25	6-6	198	N/A		Belarus				
+47252	Belarusian-BPL	2019 - 2020	International	Artsem Sekushenka	BOR	24	416.8	63	128	2	8	31	42	28	62	72	52	124	12	18	11	159	Jan-20	Jul	2001-07-06	6-7	201	190	86	Belarus				
+47258	Belarusian-BPL	2019 - 2020	International	Vladislav Lagodich	BSEU	21	443.6	55	163	14	63	15	29	55	65	14	39	53	41	36	3	139	Feb-20	Mar	2002-03-21	5-11	180	N/A		Belarus				
+47264	Belarusian-BPL	2019 - 2020	International	Aleksey Shevhenko	RGU	14	413.6	46	126	24	70	14	20	53	30	6	42	48	44	13	2	130	Apr-20	May	2004-05-28	6-5	196	N/A		Belarus				
+47266	Belarusian-BPL	2019 - 2020	International	Arseniy Tugarinov	III	24	556.8	51	139	9	33	17	32	49	30	34	76	110	26	16	6	128	Feb-20	Sep	2002-09-04	6-6	198	N/A		Belarus				
+47268	Belarusian-BPL	2019 - 2020	International	Ilya Milashevskiy	III	15	326.0	40	112	21	58	23	28	46	31	23	32	55	46	19	4	124	Apr-20	Jan	2004-01-04	6-1	185	179	81	Belarus				
+47272	Belarusian-BPL	2019 - 2020	International	Nikita Nadeev	III	22	363.2	47	115	4	29	24	42	90	41	1	25	26	40	12	4	122	Mar-20	May	2003-05-10	6-3	191	N/A		Belarus				
+47273	Belarusian-BPL	2019 - 2020	International	Daniil Kolesnikov	BSEU	19	398.2	47	127	6	23	21	48	35	42	23	71	94	12	17	11	121	Feb-20	Oct	2002-10-29	6-7	201	N/A		Belarus				
+47278	Belarusian-BPL	2019 - 2020	International	Evheniy Savostian	GRGU	19	361.6	46	121	19	60	5	15	40	20	13	33	46	19	34	8	116	Mar-20	Apr	2003-04-22	6-2	188	N/A		Belarus				
+47279	Belarusian-BPL	2019 - 2020	International	Anton Gaidel	GRGU	18	359.2	41	128	7	36	27	51	53	39	11	29	40	50	32	1	116	Mar-20	May	2003-05-23	6-2	188	N/A		Belarus				
+47282	Belarusian-BPL	2019 - 2020	International	Viktar Kachalouski	RCOP	21	381.9	38	120	18	73	13	18	47	25	11	35	46	48	25	3	107	Mar-20	Sep	2003-09-24	6-0	183	N/A		Belarus				
+47283	Belarusian-BPL	2019 - 2020	International	Maksim Alekseev	RGU	13	374.2	38	95	4	15	24	40	30	37	29	71	100	11	13	1	104	Apr-20	Jun	2004-06-03	6-8	203	N/A		Belarus				
+47284	Belarusian-BPL	2019 - 2020	International	Yegor Kranin	GRGU	20	499.9	38	97	0	0	25	59	35	53	70	61	131	18	14	5	101	Jan-20	May	2001-05-25	6-7	201	N/A		Belarus				
+47285	Belarusian-BPL	2019 - 2020	International	Nikita Matsal	IMP	18	346.2	40	100	7	26	14	34	44	56	10	31	41	58	25	0	101	Jan-20	Mar	2001-03-27	6-6	198	180	82	Belarus				
+47286	Belarusian-BPL	2019 - 2020	International	Aleksey Iudkin	RCOP	21	321.9	39	104	17	53	5	14	41	39	7	27	34	35	26	2	100	Mar-20	Jul	2003-07-18	6-3	191	N/A		Belarus				
+47290	Belarusian-BPL	2019 - 2020	International	Nikita Prokopenko	SOZ	20	260.8	39	90	9	33	5	6	32	26	13	20	33	15	6	0	92	Jan-20	Apr	2001-04-03	6-1	185	N/A		Belarus				
+47291	Belarusian-BPL	2019 - 2020	International	Vladislav Zhmailik	GRGU	21	408.7	43	79	2	19	3	4	25	40	22	51	73	18	20	3	91	Feb-20	May	2002-05-16	6-4	193	N/A		Belarus				
+47296	Belarusian-BPL	2019 - 2020	International	Sergey Fedorchuk	BSEU	22	578.2	26	128	11	55	25	38	51	60	20	49	69	51	24	2	88	Feb-20	Jul	2002-07-29	6-3	191	N/A		Belarus				
+47298	Belarusian-BPL	2019 - 2020	International	Roman Scherbakov	III	22	409.8	28	100	7	39	23	32	65	48	3	37	40	48	16	1	86	Mar-20	Oct	2003-10-05	6-1	185	N/A		Belarus				
+47299	Belarusian-BPL	2019 - 2020	International	Artem Brashko	RCOP	16	281.1	38	84	2	9	3	13	24	36	38	39	77	17	14	6	81	Mar-20	Jun	2003-06-04	6-7	201	N/A		Belarus				
+47302	Belarusian-BPL	2019 - 2020	International	Artem Shkuratov	RCOP	21	381.1	33	89	0	0	7	17	35	43	45	76	121	23	9	17	73	Jan-20	Jan	2001-01-31	6-5	196	N/A		Belarus				
+47307	Belarusian-BPL	2019 - 2020	International	Konstantin Andreev	RGU	12	264.3	24	79	5	24	9	16	24	30	14	27	41	24	8	3	62	Apr-20	Nov	2004-11-03	6-4	193	N/A		Belarus				
+47309	Belarusian-BPL	2019 - 2020	International	Arseniy Kustrei	RCOP	21	190.5	21	71	2	12	13	19	30	37	30	26	56	8	6	4	57	Feb-20	Nov	2002-11-08	6-5	196	N/A		Belarus				
+47312	Belarusian-BPL	2019 - 2020	International	Vadim Paiko	RGU	14	305.5	21	78	4	21	7	14	61	27	5	16	21	30	7	0	53	Apr-20	Jul	2004-07-07	6-3	191	N/A		Belarus				
+47313	Belarusian-BPL	2019 - 2020	International	Daniil Makritsky	RCOP	17	120.4	20	49	5	15	8	18	23	18	9	9	18	15	7	1	53	Jan-20	Apr	2001-04-04	6-3	191	N/A		Belarus				
+47314	Belarusian-BPL	2019 - 2020	International	Ivan Terehov	III	21	322.5	20	72	1	13	10	16	28	19	12	47	59	24	14	5	51	Mar-20	Mar	2003-03-21	6-7	201	N/A		Belarus				
+47316	Belarusian-BPL	2019 - 2020	International	Nikita Myts	BSEU	16	198.7	18	62	5	21	7	15	26	13	12	17	29	16	6	0	48	Feb-20	May	2002-05-11	6-2	188	N/A		Belarus				
+47317	Belarusian-BPL	2019 - 2020	International	Gleb Pekhtsiarou	RUB	19	166.7	21	40	1	1	3	6	10	26	14	19	33	3	4	1	46	Feb-20	May	2002-05-08	6-6	198	N/A		Belarus				
+47320	Belarusian-BPL	2019 - 2020	International	Nikita Bogdel	GRGU	15	112.8	16	38	8	17	2	4	21	17	3	10	13	6	9	2	42	Mar-20	Jan	2003-01-19	6-1	185	N/A		Belarus				
+47321	Belarusian-BPL	2019 - 2020	International	Mihail Vaido	IMP	20	152.5	12	38	2	10	13	15	29	26	7	20	27	16	15	1	39	Jan-20	Sep	2001-09-30	6-1	185	N/A		Belarus				
+47322	Belarusian-BPL	2019 - 2020	International	Stepan Azarkevich	RGU	10	185.2	15	41	1	9	1	10	27	14	3	9	12	22	5	0	32	Apr-20	Feb	2004-02-26	5-10	178	N/A		Belarus				
+47323	Belarusian-BPL	2019 - 2020	International	Dmitri Bezrychenko	III	19	181.0	12	39	3	18	4	6	19	17	2	12	14	8	7	2	31	Feb-20	Nov	2002-11-12	6-2	188	N/A		Belarus				
+47324	Belarusian-BPL	2019 - 2020	International	Ivan Rekun	BSEU	16	157.9	14	49	1	9	2	4	22	12	8	16	24	10	4	2	31	Mar-20	Jan	2003-01-06	6-2	188	N/A		Belarus				
+47326	Belarusian-BPL	2019 - 2020	International	Mikhail Rahashchuk	RCOP	16	135.5	14	37	0	1	1	2	11	35	18	22	40	7	5	3	29	Mar-20	Mar	2003-03-10	6-8	203	N/A		Belarus				
+47328	Belarusian-BPL	2019 - 2020	International	Nikita Borodin	RUB	18	190.1	9	23	0	0	10	25	18	20	19	38	57	8	14	8	28	Feb-20	Jan	2002-01-27	6-1	185	N/A		Belarus				
+47329	Belarusian-BPL	2019 - 2020	International	Aleksandr Gogarev	RGU	14	184.1	12	36	0	2	3	11	27	17	11	41	52	6	7	7	27	Apr-20	May	2004-05-26	6-7	201	N/A		Belarus				
+47331	Belarusian-BPL	2019 - 2020	International	Taras Metezh	III	14	104.2	8	26	0	2	6	10	17	11	4	12	16	12	4	0	22	Feb-20	Apr	2002-04-24	6-2	188	N/A		Belarus				
+47334	Belarusian-BPL	2019 - 2020	International	Anton Boyarin	RCOP	13	153.7	7	34	0	16	3	3	24	29	11	13	24	13	10	0	17	Feb-20	Jan	2002-01-25	6-1	185	N/A		Belarus				
+47336	Belarusian-BPL	2019 - 2020	International	Dmitriy Naumenko	GRGU	14	106.4	4	15	0	4	3	4	11	9	6	14	20	4	0	4	11	Mar-20	Oct	2003-10-31	6-5	196	N/A		Belarus				
+47338	Belarusian-BPL	2019 - 2020	International	Daniil Shishko	IMP	12	77.6	2	10	0	2	0	0	6	9	4	3	7	1	2	1	4	Feb-20	Jan	2002-01-17	6-2	188	N/A		Belarus				
+47339	Belarusian-BPL	2019 - 2020	International	Aleksey Bochkar	III	11	54.4	2	13	0	4	0	2	9	11	1	2	3	7	2	0	4	Mar-20	Apr	2003-04-08	6-3	191	181	82	Belarus				
+47340	Belarusian-BPL	2019 - 2020	International	Grigoriy Sharko	III	11	56.6	1	9	0	2	1	2	4	4	0	7	7	3	0	1	3	Feb-20	Mar	2002-03-18	6-7	201	N/A		Belarus				
+47393	Belgium-Scooore-League	2019 - 2020	International	Keye Van Der Vuurst De Vries	OOS	16	304.0	36	70	22	46	25	30	40	37	0	26	26	71	7	0	119	Jan-20	Dec	2001-12-29	6-4	193	188	85	Netherlands				
+47396	Belgium-Scooore-League	2019 - 2020	International	Amar Sylla	OOS	15	321.0	48	123	8	37	11	16	23	26	18	76	94	10	4	7	115	Jan-20	Oct	2001-10-01	6-9	206	190	86	Senegal				
+47417	Belgium-Scooore-League	2019 - 2020	International	Malcolm Cazalon	LEU	10	174.0	19	53	3	19	19	22	11	18	7	19	26	14	5	1	60	Jan-20	Aug	2001-08-27	6-6	198	186	84	France				
+47508	Bosnian-BiH-Liga	2019 - 2020	International	Marko Raicevic	TAK	19	294.1	43	88	7	21	30	40	24	53	19	22	41	28	22	0	123	Jan-20	Nov	2001-11-27	6-9	206	N/A		Montenegro				
+47524	Bosnian-BiH-Liga	2019 - 2020	International	Alija Islamovic	PROM	20	239.6	33	61	0	3	11	21	10	38	15	20	35	8	8	1	77	Jan-20	May	2001-05-10	6-9	206	N/A		Bosnia and Herzegovina				
+47529	Bosnian-BiH-Liga	2019 - 2020	International	Djordje Topolovic	IGO	11	117.5	28	43	0	3	11	13	7	14	13	23	36	5	3	0	67	Jan-20	Jul	2001-07-07	6-10	208	N/A		Bosnia and Herzegovina				
+47537	Bosnian-BiH-Liga	2019 - 2020	International	Stefan Simanic	IGO	10	95.8	20	38	2	7	6	9	8	5	7	31	38	8	2	5	48	Jan-20	Aug	2001-08-02	6-10	208	N/A		Bosnia and Herzegovina				
+47542	Bosnian-BiH-Liga	2019 - 2020	International	Haris Dedajic	SLO	10	137.0	11	34	4	17	14	20	19	17	2	8	10	35	4	0	40	Jan-20	Jan	2001-01-29	6-0	183	178	81	Bosnia and Herzegovina				
+47717	Brazilian-NBB	2019 - 2020	International	Marcio Santos	FRA	16	59.0	7	15	2	5	7	9	4	17	4	9	13	2	0	1	23	Feb-20	Nov	2002-11-02	6-8	203	253	115	Brazil				
+47729	Brazilian-NBB	2019 - 2020	International	Adyel Borges	FRA	11	24.1	2	7	0	3	2	4	3	4	0	4	4	4	2	1	6	Feb-20	Mar	2002-03-17	6-1	185	N/A		Brazil				
+47889	Bulgarian-NBL	2019 - 2020	International	Damyan Minkov	LUK	19	211.0	32	70	0	10	9	17	15	23	12	31	43	9	12	2	73	Feb-20	Mar	2002-03-06	6-6	198	184	83	Bulgaria				
+47891	Bulgarian-NBL	2019 - 2020	International	Martin Jordanov	EUR	11	135.0	26	42	1	4	13	17	12	8	6	16	22	2	3	2	66	Feb-20	Jan	2002-01-02	6-7	201	N/A		Bulgaria				
+47908	Bulgarian-NBL	2019 - 2020	International	Nikolay Georgiev	CHE	18	151.0	4	30	1	14	5	8	13	21	1	11	12	22	7	0	14	Jan-20	Jun	2001-06-02	5-10	178	N/A		Bulgaria				
+47909	Bulgarian-NBL	2019 - 2020	International	Aleksandar Stoykov	EUR	12	74.0	5	16	3	10	0	1	7	1	2	4	6	3	0	0	13	Jan-20	Jan	2001-01-29	6-6	198	190	86	Bulgaria				
+47910	Bulgarian-NBL	2019 - 2020	International	Mihail Moldov	EUR	14	103.0	6	29	0	15	1	2	11	14	4	10	14	10	5	1	13	Jan-20	Mar	2001-03-13	6-4	193	180	82	Bulgaria				
+47990	Canadian-NBL	2019 - 2020	International	Carl Lewis III	SUD	18	124.0	16	34	0	0	22	26	14	46	12	27	39	3	0	6	54	Jan-20	Jan	2001-01-04	6-11	211	275	125	United States	Hillcrest Prep			
+48244	Chinese-CBA	2019 - 2020	International	Jiayi Zhao	ZGL	22	235.0	31	76	8	33	18	23	18	33	11	26	37	7	8	2	88	Feb-20	Aug	2002-08-25	6-8	203	200	91	China				
+48317	Croatian-A-1-Liga	2019 - 2020	International	Roko Prkacin	CIB	20	438.4	93	164	18	49	28	44	23	44	27	80	107	27	23	12	232	Feb-20	Nov	2002-11-26	6-9	206	N/A		Croatia				
+48402	Croatian-A-1-Liga	2019 - 2020	International	Ivan Gulin	SIB	15	215.8	22	44	5	13	10	11	12	19	5	13	18	11	4	0	59	Jan-20	Nov	2001-11-09	6-5	196	180	82	Croatia				
+48410	Croatian-A-1-Liga	2019 - 2020	International	Tomislav Ivisic	SIB	16	127.9	19	41	1	6	4	5	7	15	10	20	30	11	3	4	43	Mar-20	Aug	2003-08-09	6-11	211	230	104	Croatia				
+48421	Croatian-A-1-Liga	2019 - 2020	International	Vuk Dmitrovic	VRI	10	27.8	3	9	1	4	1	2	1	3	1	2	3	3	0	0	8	Jan-20	Nov	2001-11-13	6-7	201	185	84	Serbia				
+48552	Czech-NBL	2019 - 2020	International	Marek Vyroubal	PRA	10	28.4	0	3	0	0	2	2	3	4	0	5	5	1	2	0	2	Jan-20	Apr	2001-04-02	6-5	196	N/A		Czech Republic				
+48561	Danish-Basketligaen	2019 - 2020	International	Jonathan Klussmann	AMAG	19	512.8	94	244	30	103	111	132	67	36	20	45	65	46	13	0	329	Feb-20	Oct	2002-10-06	6-3	191	N/A		Denmark				
+48630	Danish-Basketligaen	2019 - 2020	International	Danijel Marsenic	WOLF	19	304.9	27	85	11	50	16	20	25	40	9	32	41	32	13	2	81	Jan-20	Jan	2001-01-14	6-4	193	198	90	Denmark / Montenegro				
+48637	Danish-Basketligaen	2019 - 2020	International	Mads Bro Hansen	EBAA	16	210.3	19	61	10	39	7	12	14	10	8	12	20	22	7	1	55	Feb-20	Feb	2002-02-16	6-4	193	N/A		Denmark				
+48639	Danish-Basketligaen	2019 - 2020	International	Noah Sorensen	EBAA	10	136.6	22	58	3	20	7	8	12	5	4	13	17	13	12	0	54	Mar-20	Feb	2003-02-06	6-4	193	N/A		Denmark				
+48654	Danish-Basketligaen	2019 - 2020	International	Linus Gron	AMAG	19	138.6	12	19	0	0	5	7	10	16	8	19	27	9	6	6	29	Feb-20	Jun	2002-06-30	6-9	206	195	88	Denmark				
+48668	Estonian-Latvian-Basketball-League	2019 - 2020	International	Leemet Bockler	TTU	26	591.6	128	289	51	126	44	46	65	51	21	68	89	50	27	5	351	Jan-20	Jul	2001-07-04	6-6	198	215	98	Estonia				
+48707	Estonian-Latvian-Basketball-League	2019 - 2020	International	Emils Krumins	VAL	18	494.1	81	194	32	96	38	49	51	38	5	32	37	57	10	0	232	Jan-20	Oct	2001-10-10	6-1	185	185	84	Latvia				
+48727	Estonian-Latvian-Basketball-League	2019 - 2020	International	Philip Gafurov	VAL	20	509.0	59	169	13	39	58	74	28	51	38	79	117	26	6	1	189	Jan-20	Jun	2001-06-23	7-0	213	198	90	Russia				
+48739	Estonian-Latvian-Basketball-League	2019 - 2020	International	Ricards Vanags	VAL	15	313.9	49	113	29	67	30	39	19	31	22	33	55	13	6	5	157	Feb-20	Dec	2002-12-29	6-4	193	182	83	Latvia				
+48741	Estonian-Latvian-Basketball-League	2019 - 2020	International	Ran-Andre Pehka	KLV	24	586.4	47	153	21	72	42	55	39	59	16	59	75	56	24	0	157	Jan-20	Jun	2001-06-15	6-3	191	155	70	Estonia				
+48772	Estonian-Latvian-Basketball-League	2019 - 2020	International	Kristians Sulcs	JUR	23	364.1	42	82	17	44	5	7	25	50	19	15	34	18	11	0	106	Feb-20	Sep	2002-09-26	6-5	196	178	81	Latvia				
+48776	Estonian-Latvian-Basketball-League	2019 - 2020	International	Roberts Berzins	JUR	14	218.5	35	97	13	41	16	20	21	43	12	22	34	16	9	2	99	Jan-20	Jan	2001-01-10	6-4	193	206	93	Latvia				
+48777	Estonian-Latvian-Basketball-League	2019 - 2020	International	Roberts Berze	LU	21	208.4	34	84	20	56	9	13	16	20	6	26	32	12	10	2	97	Jan-20	Aug	2001-08-01	6-5	196	198	90	Latvia				
+48787	Estonian-Latvian-Basketball-League	2019 - 2020	International	Davis Denafs	VAL	16	267.8	30	83	5	23	16	20	31	24	12	16	28	24	13	1	81	Feb-20	Mar	2002-03-25	6-2	188	200	91	Latvia				
+48792	Estonian-Latvian-Basketball-League	2019 - 2020	International	Kristaps Kilps	VEN	15	162.0	26	60	9	28	11	21	11	30	2	11	13	13	5	2	72	Jan-20	Mar	2001-03-20	6-5	196	189	86	Latvia				
+48795	Estonian-Latvian-Basketball-League	2019 - 2020	International	Kaspar Lootus	PAR	22	277.6	21	47	6	22	11	17	13	36	13	35	48	9	8	9	59	Jan-20	Mar	2001-03-19	6-8	203	190	86	Estonia				
+48809	Estonian-Latvian-Basketball-League	2019 - 2020	International	Sverre Aav	TUK	11	111.8	10	30	7	23	4	5	7	14	2	8	10	6	3	0	31	Feb-20	Jan	2002-01-03	6-3	191	N/A		Estonia				
+48813	Estonian-Latvian-Basketball-League	2019 - 2020	International	Hannes Saar	TUK	11	127.8	8	26	2	16	4	8	5	14	1	11	12	5	1	0	22	Jan-20	Oct	2001-10-10	6-6	198	N/A		Estonia				
+48815	Estonian-Latvian-Basketball-League	2019 - 2020	International	Roberts Kuze	LPJ	14	96.5	4	21	0	4	8	10	6	13	8	13	21	1	2	4	16	Jan-20	Aug	2001-08-25	6-7	201	196	89	Latvia				
+48821	Estonian-Latvian-Basketball-League	2019 - 2020	International	Kristers Pauls Maura	JUR	11	29.1	3	11	2	8	1	2	1	7	1	2	3	0	3	0	9	Jan-20	Dec	2001-12-05	6-2	188	178	81	Latvia				
+48822	Estonian-Latvian-Basketball-League	2019 - 2020	International	Martin Laandu	TAR	15	64.7	3	8	0	2	2	2	5	16	5	5	10	2	1	1	8	Jan-20	Mar	2001-03-21	6-6	198	215	98	Estonia				
+48823	Estonian-Latvian-Basketball-League	2019 - 2020	International	Raimonds Stasans	VAL	10	27.5	2	5	0	0	2	7	2	1	1	5	6	2	1	0	6	Feb-20	Aug	2002-08-30	6-4	193	N/A		Latvia				
+48899	Eurocup	2019 - 2020	International	Killian Hayes	RUL	10	267.8	46	101	16	41	20	22	33	32	1	22	23	62	15	2	128	Jan-20	Jul	2001-07-27	6-5	196	216	98	France / United States		1	7	Detroit Pistons
+49035	Eurocup	2019 - 2020	International	Noam Shimon Dovrat	MRL	10	148.7	11	41	6	25	4	5	14	18	4	7	11	7	7	3	32	Feb-20	Jul	2002-07-16	6-5	196	N/A		Israel				
+49052	Eurocup	2019 - 2020	International	Timothe Crusol	CSP	10	98.2	2	13	1	8	1	5	10	14	2	10	12	2	1	0	6	Jan-20	Apr	2001-04-05	6-4	193	182	83	France				
+49157	Euroleague	2019 - 2020	International	Theo Maledon	LYV	22	389.0	57	125	18	49	31	45	41	64	4	35	39	69	7	2	163	Jan-20	Jun	2001-06-12	6-5	196	198	90	France		2	4	Philadelphia Sixers
+49209	Euroleague	2019 - 2020	International	Deni Avdija	MAC	26	371.4	41	94	13	47	10	18	19	52	15	53	68	30	10	6	105	Jan-20	Jan	2001-01-03	6-9	206	220	100	Israel		1	9	Washington Wizards
+49251	Euroleague	2019 - 2020	International	Matthew Strazel	LYV	16	222.6	21	53	12	29	10	13	19	27	2	9	11	25	3	0	64	Feb-20	Aug	2002-08-05	6-0	183	178	81	France				
+49256	Euroleague	2019 - 2020	International	Usman Garuba	RMB	14	166.9	25	37	2	6	9	18	7	20	15	25	40	6	12	4	61	Feb-20	Mar	2002-03-09	6-8	203	220	100	Spain				
+49655	Finnish-Korisliiga	2019 - 2020	International	Tommi Lehtonen	KOR	20	192.1	20	51	11	35	1	2	16	25	3	17	20	7	6	1	52	Mar-20	Feb	2003-02-26	5-11	180	176	80	Finland				
+49658	Finnish-Korisliiga	2019 - 2020	International	Valtteri Mervola	KAT	18	154.2	14	33	4	9	9	13	8	16	0	3	3	16	6	0	41	Feb-20	Jan	2002-01-01	6-1	185	158	72	Finland				
+49665	Finnish-Korisliiga	2019 - 2020	International	Oscar Storgard	KOU	10	80.9	11	24	10	23	2	2	6	13	3	2	5	4	4	1	34	Jan-20	Apr	2001-04-12	6-4	193	N/A		Finland				
+49671	Finnish-Korisliiga	2019 - 2020	International	Antti Ahonen	NOK	20	86.2	9	23	5	14	0	0	4	15	1	14	15	2	1	0	23	Jan-20	Mar	2001-03-15	6-5	196	176	80	Finland				
+49677	Finnish-Korisliiga	2019 - 2020	International	Henri Permanto	KOU	19	59.6	3	16	0	9	0	2	4	11	1	4	5	2	1	0	6	Jan-20	Mar	2001-03-05	6-6	198	194	88	Finland				
+49678	Finnish-Korisliiga	2019 - 2020	International	Joona Hakamaa	KAR	13	44.5	2	5	2	5	0	0	2	9	2	2	4	3	1	0	6	Jan-20	Apr	2001-04-06	6-5	196	165	75	Finland				
+49797	French-Jeep-Elite	2019 - 2020	International	Theo Maledon	LYV	21	340.0	43	109	16	56	39	45	31	49	4	36	40	42	14	2	141	Jan-20	Jun	2001-06-12	6-5	196	198	90	France		2	4	Philadelphia Sixers
+49847	French-Jeep-Elite	2019 - 2020	International	Hugo Benitez	JLB	19	189.0	18	41	8	17	8	11	8	28	2	11	13	37	13	0	52	Jan-20	Jan	2001-01-20	6-2	188	185	84	France				
+49854	French-Jeep-Elite	2019 - 2020	International	Matthew Strazel	LYV	14	159.0	11	34	7	20	15	17	17	30	2	6	8	28	8	0	44	Feb-20	Aug	2002-08-05	6-0	183	178	81	France				
+49858	French-Jeep-Elite	2019 - 2020	International	Timothe Crusol	CSP	23	231.0	12	32	4	18	9	11	16	40	1	12	13	18	12	0	37	Jan-20	Apr	2001-04-05	6-4	193	182	83	France				
+49861	French-Jeep-Elite	2019 - 2020	International	Essome Miyem Nwal	STR	10	60.0	8	12	0	0	7	10	3	21	3	5	8	1	0	0	23	Jan-20	Jul	2001-07-15	6-10	208	220	100	France				
+49862	French-Jeep-Elite	2019 - 2020	International	Matthieu Gauzin	LEM	15	109.0	7	23	2	9	6	8	11	23	1	4	5	8	1	0	22	Jan-20	Feb	2001-02-27	6-4	193	160	73	France				
+49865	French-Jeep-Elite	2019 - 2020	International	Hugo Besson	CHA	12	76.0	6	18	2	11	3	4	5	12	0	7	7	8	0	0	17	Jan-20	Apr	2001-04-26	6-2	188	N/A		France				
+49927	Georgian-Super-Liga	2019 - 2020	International	Irakli Sulkhanishvili	VERA	14	268.1	17	65	8	31	13	20	5	32	11	30	41	12	12	0	55	Jan-20	Jun	2001-06-13	6-5	196	N/A		Georgia				
+49939	Georgian-Super-Liga	2019 - 2020	International	Nikoloz Gaprindashvili	DIN	14	201.5	17	47	5	28	4	6	11	19	8	15	23	11	8	3	43	Feb-20	Jul	2002-07-03	6-6	198	N/A		Georgia				
+49940	Georgian-Super-Liga	2019 - 2020	International	Dachi Kavtaradze	DIN	13	94.7	15	45	4	15	5	7	4	11	8	9	17	13	7	0	39	Jan-20	Nov	2001-11-28	6-3	191	170	77	Georgia				
+49944	Georgian-Super-Liga	2019 - 2020	International	Irakli Kiladze	DIN	13	155.1	14	34	3	16	5	10	7	21	5	10	15	9	9	3	36	Feb-20	Jun	2002-06-24	6-9	206	205	93	Georgia				
+49947	Georgian-Super-Liga	2019 - 2020	International	Vova Tavaqarashvili	DIN	11	148.6	11	34	7	25	1	2	6	23	5	5	10	8	7	2	30	Feb-20	May	2002-05-23	6-7	201	N/A		Georgia				
+49951	Georgian-Super-Liga	2019 - 2020	International	Nikoloz Soselia	KUT	12	77.9	9	18	2	10	0	0	3	15	4	11	15	3	0	0	20	Jan-20	Oct	2001-10-21	6-7	201	N/A		Georgia				
+49955	Georgian-Super-Liga	2019 - 2020	International	Beka Bekaia	BAT	11	28.4	2	7	2	6	2	2	2	9	1	1	2	1	1	0	8	Jan-20	Jul	2001-07-13	5-11	180	N/A		Georgia				
+50012	German-BBL	2019 - 2020	International	Killian Hayes	RUL	20	500.0	84	169	12	55	52	61	69	60	10	52	62	105	27	4	232	Jan-20	Jul	2001-07-27	6-5	196	216	98	France / United States		1	7	Detroit Pistons
+50130	German-BBL	2019 - 2020	International	Justus Hollatz	HAM	18	289.6	18	48	3	23	10	15	27	23	10	12	22	40	29	4	49	Jan-20	Apr	2001-04-21	5-11	180	150	68	Germany				
+50131	German-BBL	2019 - 2020	International	Ariel Hukporti	LUD	22	162.8	16	34	0	0	16	29	10	36	15	30	45	1	4	9	48	Feb-20	Apr	2002-04-12	7-0	213	250	113	Germany / Togo				
+50137	German-BBL	2019 - 2020	International	Len Schoormann	FRA	12	117.6	11	35	3	13	9	14	19	18	2	8	10	12	3	0	34	Feb-20	Jul	2002-07-25	6-5	196	178	81	Germany				
+50138	German-BBL	2019 - 2020	International	Jacob Patrick	LUD	10	88.3	11	24	6	14	2	3	4	9	2	6	8	2	1	0	30	Mar-20	Nov	2003-11-21	6-6	198	N/A		Germany				
+50139	German-BBL	2019 - 2020	International	Luc Van Slooten	RAS	11	89.9	7	24	6	22	9	13	2	4	4	8	12	5	4	0	29	Feb-20	Apr	2002-04-17	6-8	203	219	99	Germany				
+50140	German-BBL	2019 - 2020	International	Lukas Herzog	LUD	11	76.1	7	17	3	13	8	9	1	7	0	6	6	1	3	0	25	Jan-20	Sep	2001-09-10	6-2	188	172	78	Germany				
+50142	German-BBL	2019 - 2020	International	Radii Caisin	LUD	18	117.6	8	17	2	10	5	7	4	17	5	10	15	3	7	1	23	Jan-20	Feb	2001-02-27	6-6	198	215	98	Germany				
+50143	German-BBL	2019 - 2020	International	Malte Delow	BER	14	116.7	8	28	4	14	2	2	4	14	4	12	16	7	4	1	22	Jan-20	Apr	2001-04-22	6-6	198	170	77	Germany				
+50289	Greek-HEBA-A1	2019 - 2020	International	Lefteris Mantzoukas	PROM	14	173.1	17	39	6	17	4	6	4	18	7	14	21	6	3	0	44	Mar-20	Jul	2003-07-08	6-9	206	220	100	Greece				
+50290	Greek-HEBA-A1	2019 - 2020	International	Zois Karampelas	PER	11	130.5	11	39	7	29	12	16	10	25	7	17	24	22	3	0	41	Jan-20	Apr	2001-04-27	6-1	185	180	82	Greece				
+50302	Greek-HEBA-A1	2019 - 2020	International	Fotios Georgalas	IRAK	14	45.5	6	6	0	0	3	8	5	14	2	8	10	1	0	0	15	Jan-20	Jun	2001-06-26	6-9	206	N/A		Greece				
+50303	Greek-HEBA-A1	2019 - 2020	International	Giannis Sidiroilias	ARI	10	43.8	6	7	1	2	0	0	0	12	1	3	4	3	0	0	13	Jan-20	Oct	2001-10-29	6-7	201	N/A		Greece				
+50426	Hungarian-NBIA	2019 - 2020	International	Norbert Lukacs	ALB	14	139.0	15	26	3	9	0	4	3	20	5	21	26	9	4	5	33	Jan-20	May	2001-05-18	6-5	196	163	74	Hungary				
+50430	Hungarian-NBIA	2019 - 2020	International	Kristof Takacs	EGIS	15	138.0	9	27	5	18	2	2	6	23	1	9	10	8	3	2	25	Feb-20	Nov	2002-11-30	6-2	188	187	85	Hungary				
+50441	Hungarian-NBIA	2019 - 2020	International	Vincent Laszlo Valerio-Bodon	ATO	11	76.0	5	11	3	7	0	0	2	8	2	3	5	1	1	4	13	Jan-20	May	2001-05-02	6-8	203	185	84	Hungary				
+50449	Israeli-BSL	2019 - 2020	International	Deni Avdija	MAC	33	910.0	161	306	48	136	57	96	74	70	18	189	207	88	30	33	427	Jan-20	Jan	2001-01-03	6-9	206	220	100	Israel		1	9	Washington Wizards
+50529	Israeli-BSL	2019 - 2020	International	Noam Shimon Dovrat	MRL	32	560.0	53	126	24	73	25	38	33	62	10	54	64	54	28	8	155	Feb-20	Jul	2002-07-16	6-5	196	N/A		Israel				
+50580	Israeli-BSL	2019 - 2020	International	Dori Sahar	MAC	18	120.0	12	21	5	10	0	0	3	19	3	14	17	7	4	2	29	Jan-20	Jan	2001-01-08	6-5	196	N/A		Israel				
+50586	Israeli-BSL	2019 - 2020	International	Raziel Hayun	EIL	17	47.0	3	9	2	6	1	3	2	8	0	5	5	1	2	1	9	Jan-20	Jul	2001-07-23	6-4	193	N/A		Israel				
+50589	Israeli-BSL	2019 - 2020	International	Yonatan Atias	MAC	15	39.0	1	3	0	0	1	4	2	5	0	7	7	3	1	0	3	Jan-20	Jan	2001-01-26	6-9	206	N/A		Israel				
+50591	Israeli-BSL	2019 - 2020	International	Shalev Shlomo Lugashi	NAH	12	13.0	0	2	0	2	0	0	0	3	0	1	1	0	0	0	0	Jan-20	Sep	2001-09-24	6-4	193	N/A		Israel				
+50906	Japanese-BLeague	2019 - 2020	International	Yuki Kawamura	SAN	11	244.4	42	108	22	59	33	43	32	20	4	18	22	34	17	0	139	Jan-20	May	2001-05-02	5-7	170	N/A		Japan				
+51042	Kosovo-FBK	2019 - 2020	International	Bardh Rexha	RAHO	20	317.4	61	116	9	36	3	12	21	50	45	49	94	9	11	1	134	Jan-20	Jul	2001-07-21	6-3	191	165	75	Kosovo				
+51047	Kosovo-FBK	2019 - 2020	International	Ermal Bojku	PEJ	22	322.7	37	90	26	73	5	7	11	46	4	18	22	15	5	0	105	Jan-20	Dec	2001-12-07	5-8	173	160	73	Kosovo				
+51048	Kosovo-FBK	2019 - 2020	International	Albin Berisha	PEJ	22	349.2	37	101	15	57	14	19	29	49	14	21	35	29	18	0	103	Feb-20	Mar	2002-03-20	6-2	188	176	80	Kosovo				
+51061	Kosovo-FBK	2019 - 2020	International	Erhan Sholla	FERO	22	373.8	25	77	7	38	20	27	29	38	25	51	76	18	22	3	77	Jan-20	Feb	2001-02-10	6-6	198	N/A		Kosovo				
+51069	Kosovo-FBK	2019 - 2020	International	Visar Ejupi	RAHO	18	200.0	18	59	6	29	7	11	8	22	13	23	36	6	1	0	49	Mar-20	Apr	2003-04-03	6-5	196	194	88	Kosovo				
+51071	Kosovo-FBK	2019 - 2020	International	Don Polloshka	PRIS	15	115.8	16	39	10	19	4	8	12	12	3	16	19	28	3	0	46	Feb-20	Jun	2002-06-07	5-9	175	N/A		Kosovo				
+51081	Kosovo-FBK	2019 - 2020	International	Drilon Shala	YLLI	14	108.8	10	28	2	6	4	4	6	15	13	15	28	2	2	2	26	Feb-20	Mar	2002-03-20	6-9	206	N/A		Kosovo				
+51084	Kosovo-FBK	2019 - 2020	International	Donat Musa	TREP	12	162.4	8	22	1	6	4	10	9	25	5	11	16	10	2	0	21	Jan-20	Mar	2001-03-20	6-4	193	N/A		Kosovo				
+51213	Lithuanian-LKL	2019 - 2020	International	Marek Blazevic	LIE	21	262.6	58	102	1	1	30	38	15	49	30	40	70	12	7	8	147	Jan-20	Sep	2001-09-01	6-11	211	240	109	Lithuania				
+51254	Lithuanian-LKL	2019 - 2020	International	Kerr Kriisa	PRI	10	137.7	11	33	8	23	11	14	19	9	1	6	7	22	5	0	41	Jan-20	Jan	2001-01-02	6-2	188	165	75	Estonia				
+51261	Lithuanian-LKL	2019 - 2020	International	Redas Venclovas	PZV	11	34.2	2	8	1	4	0	0	0	4	1	3	4	1	2	0	5	Jan-20	Jul	2001-07-22	6-8	203	208	94	Lithuania				
+51364	Luxembourg-Total-League	2019 - 2020	International	Pit Hansen	BSM	4	69.3	7	21	5	10	0	0	10	6	0	7	7	1	1	2	19	Mar-20	Jul	2003-07-30	5-10	178	N/A		Luxembourg				
+51373	Luxembourg-Total-League	2019 - 2020	International	Davy David Rocha	RES	3	52.7	2	9	1	7	2	8	2	7	1	5	6	0	0	0	7	Jan-20	Mar	2001-03-22	6-6	198	N/A		Luxembourg				
+51374	Luxembourg-Total-League	2019 - 2020	International	Max Logelin	SPA	11	38.5	2	8	1	6	2	2	1	5	2	0	2	0	2	1	7	Mar-20	Jun	2003-06-17	6-1	185	N/A		Luxembourg				
+51375	Luxembourg-Total-League	2019 - 2020	International	Neal Keup	AMI	10	32.7	2	15	1	3	0	2	1	4	3	1	4	0	1	1	5	Jan-20	Jul	2001-07-18	6-3	191	N/A		Luxembourg				
+51395	Macedonian-Superleague	2019 - 2020	International	Viktor Isajloski	SK19	17	548.1	66	181	42	128	18	30	33	43	12	61	73	34	29	4	192	Jan-20	Sep	2001-09-28	6-7	201	N/A		North Macedonia				
+51415	Macedonian-Superleague	2019 - 2020	International	Dario Mitevski	SK19	17	455.9	47	137	17	70	25	37	61	51	10	37	47	56	20	2	136	Jan-20	Sep	2001-09-27	6-2	188	N/A		North Macedonia				
+51439	Macedonian-Superleague	2019 - 2020	International	Andrej Andonoski	SK19	15	215.2	29	54	1	7	17	33	14	30	15	31	46	9	10	2	76	Feb-20	Apr	2002-04-02	6-7	201	N/A		North Macedonia				
+51446	Macedonian-Superleague	2019 - 2020	International	Marko Velichkovski	SK19	15	214.4	21	51	9	29	7	10	12	27	6	12	18	12	10	1	58	Feb-20	May	2002-05-21	6-1	185	N/A		North Macedonia				
+51458	Macedonian-Superleague	2019 - 2020	International	Borjan Obednikovski	PEL	15	265.1	12	49	1	29	4	7	14	31	5	18	23	9	9	2	29	Jan-20	Jul	2001-07-23	6-5	196	N/A		North Macedonia				
+52147	Netherlands-DBL	2019 - 2020	International	Sander Hollanders	BAL	24	507.0	65	147	42	108	11	15	21	33	14	29	43	26	12	2	183	Jan-20	Sep	2001-09-13	6-4	193	N/A		Netherlands				
+52154	Netherlands-DBL	2019 - 2020	International	Siem Uijtendaal	APO	21	418.7	60	148	21	60	24	33	37	28	10	33	43	32	16	0	165	Jan-20	May	2001-05-05	6-6	198	185	84	Netherlands				
+52221	New-Zealand-NBL	2019 - 2020	International	Thomas Webley	CAN	17	314.7	77	138	0	1	38	64	20	22	38	54	92	13	3	6	192	Jan-20	Sep	2001-09-07	6-10	208	240	109	New Zealand				
+52225	New-Zealand-NBL	2019 - 2020	International	Taine Murray	TAS	10	332.6	65	142	31	69	17	26	22	18	10	25	35	17	9	0	178	Feb-20	Apr	2002-04-19	6-5	196	196	89	New Zealand				
+52236	New-Zealand-NBL	2019 - 2020	International	Mitchell Dance	TAR	16	258.2	49	116	5	22	11	18	21	34	18	28	46	7	6	2	114	Jan-20	Jun	2001-06-22	6-4	193	N/A		New Zealand	Prolific Prep			
+52238	New-Zealand-NBL	2019 - 2020	International	Tysxun Aiolupotea	NEL	15	309.5	44	113	7	24	16	20	37	18	7	20	27	26	8	1	111	Jan-20	Aug	2001-08-07	6-0	183	184	83	New Zealand				
+52245	New-Zealand-NBL	2019 - 2020	International	Ben Carlile-Smith	CAN	17	315.8	32	85	5	24	26	35	21	40	16	52	68	21	11	9	95	Jan-20	May	2001-05-14	6-5	196	180	82	New Zealand				
+52257	New-Zealand-NBL	2019 - 2020	International	Akiva McBirney-Griffin	OGN	17	148.6	23	41	0	7	14	25	8	30	11	21	32	3	7	2	60	Mar-20	Jan	2003-01-29	6-8	203	220	100	New Zealand				
+52262	New-Zealand-NBL	2019 - 2020	International	Marvin Williams-Dunn	TAS	15	324.4	16	53	7	34	15	20	16	33	10	17	27	34	9	3	54	Jan-20	May	2001-05-28	6-2	188	180	82	New Zealand	Rosmini College			
+52263	New-Zealand-NBL	2019 - 2020	International	Mason Whittaker	CAN	17	186.2	18	44	9	20	4	8	6	21	7	16	23	4	7	4	49	Feb-20	Apr	2002-04-06	6-9	206	207	94	New Zealand				
+52269	New-Zealand-NBL	2019 - 2020	International	Mac Stodard	CAN	13	165.3	16	43	3	18	3	4	8	10	8	16	24	3	3	3	38	Feb-20	Feb	2002-02-16	6-8	203	230	104	New Zealand				
+52272	New-Zealand-NBL	2019 - 2020	International	Tom Cowie	CAN	15	234.8	11	35	4	12	3	6	19	18	3	14	17	25	9	1	29	Jan-20	Mar	2001-03-05	6-1	185	202	92	New Zealand	James Hargest College			
+52316	Norwegian-BLNO	2019 - 2020	International	Reidar Greve	GIM	29	583.3	83	198	57	128	35	39	25	80	7	37	44	22	24	3	258	Feb-20	Jul	2002-07-18	6-1	185	N/A		Norway				
+52338	Norwegian-BLNO	2019 - 2020	International	Jonas Kessler	FRO	27	385.4	42	119	17	62	26	34	12	35	26	60	86	18	11	5	129	Feb-20	Jan	2002-01-09	6-5	196	N/A		Norway				
+52347	Norwegian-BLNO	2019 - 2020	International	Erik Borg	MIN	16	103.6	11	25	0	0	4	7	6	15	7	22	29	6	3	6	106	Jan-20	Oct	2001-10-06	6-9	206	N/A		Norway				
+52355	Norwegian-BLNO	2019 - 2020	International	Marcus Lampe	GIM	19	194.6	35	72	8	20	13	17	15	31	7	30	37	10	6	1	91	Feb-20	Jun	2002-06-28					Norway				
+52369	Norwegian-BLNO	2019 - 2020	International	Jasin Akil Al-Musharafawy	FLY	10	159.8	18	43	8	20	3	4	22	13	3	16	19	9	5	0	47	Jan-20	Feb	2001-02-01	6-0	183	N/A		Norway				
+52371	Norwegian-BLNO	2019 - 2020	International	Adam Shakil Khan	FLY	18	165.0	16	34	5	13	7	10	21	30	3	15	18	6	1	0	44	Jan-20	Jun	2001-06-29	6-0	183	N/A		Norway				
+52372	Norwegian-BLNO	2019 - 2020	International	Mateusz Nilsen	BAE	15	94.6	16	26	2	5	5	5	6	6	2	6	8	6	6	2	39	Jan-20	Oct	2001-10-03	6-2	188	N/A		Norway				
+52378	Norwegian-BLNO	2019 - 2020	International	Vetle Paulsen	BAE	21	152.4	13	36	3	7	3	5	13	19	8	27	35	7	0	7	32	Jan-20	Nov	2001-11-05	6-10	208	N/A		Norway				
+52382	Norwegian-BLNO	2019 - 2020	International	Max Svendsen	BAE	13	68.1	5	14	1	4	9	18	7	13	4	8	12	8	1	3	20	Feb-20	Feb	2002-02-08	6-3	191	N/A		Norway				
+52383	Norwegian-BLNO	2019 - 2020	International	Hamewend Arif	FRO	12	75.9	6	12	0	1	7	9	6	7	3	8	11	2	2	1	19	Feb-20	Oct	2002-10-03	6-7	201	N/A		Norway				
+52385	Norwegian-BLNO	2019 - 2020	International	Torkel Westby	BAE	13	79.7	6	12	1	3	2	2	3	8	0	1	1	4	2	0	15	Jan-20	Apr	2001-04-29	6-1	185	N/A		Norway				
+52387	Norwegian-BLNO	2019 - 2020	International	Fredrik Trana	CEN	21	136.6	6	26	0	1	2	10	10	10	11	28	39	4	2	5	14	Jan-20	Nov	2001-11-30	6-4	193	N/A		Norway				
+52389	Norwegian-BLNO	2019 - 2020	International	Ionas Garras	MIN	10	47.1	1	20	1	8	1	2	6	6	2	2	4	3	1	0	4	Feb-20	Oct	2002-10-09	6-5	196	N/A		Norway				
+52659	Romanian-Divizia-A	2019 - 2020	International	Henrique Simionca	MARM	16	328.4	31	89	8	41	14	26	27	41	15	24	39	28	10	3	84	Feb-20	Apr	2002-04-30					Romania				
+52669	Romanian-Divizia-A	2019 - 2020	International	Ciprian-Florin Albu	MARM	15	408.8	23	78	7	41	19	30	18	46	8	36	44	46	19	5	72	Feb-20	Aug	2002-08-06					Romania				
+52696	Romanian-Divizia-A	2019 - 2020	International	Adrian Vaida	MARM	12	111.3	10	30	3	11	7	7	6	8	3	0	3	2	1	0	30	Mar-20	Aug	2003-08-03					Romania				
+52707	Romanian-Divizia-A	2019 - 2020	International	Stefan Grasu	TRAN	10	65.2	9	20	2	7	1	1	10	15	6	7	13	4	2	3	21	Mar-20	Feb	2003-02-16	6-7	201	N/A		Romania				
+52710	Romanian-Divizia-A	2019 - 2020	International	David Antonescu	FOCS	13	74.0	5	18	2	10	3	6	1	9	3	10	13	4	3	0	15	Apr-20	Aug	2004-08-28	6-5	196	198	90	Romania				
+52714	Romanian-Divizia-A	2019 - 2020	International	Anton Rotaru	TRAN	10	35.4	1	5	0	4	4	4	4	9	0	6	6	4	0	0	6	Feb-20	May	2002-05-10	6-2	188	N/A		Romania				
+52716	Romanian-Divizia-A	2019 - 2020	International	Teodor Craciun	FOCS	14	105.6	1	14	1	9	0	0	6	6	3	7	10	2	3	0	3	Feb-20	Oct	2002-10-18					Romania				
+52717	Romanian-Divizia-A	2019 - 2020	International	Alexandru Bratosin	FOCS	11	27.2	0	7	0	0	0	0	3	4	3	2	5	0	1	1	0	Mar-20	Mar	2003-03-15	6-3	191	165	75	Romania				
+52735	Serbian-KLS	2019 - 2020	International	Aleksandar Langovic	BEO	26	741.0	103	234	13	46	85	112	40	70	60	137	197	26	14	17	304	Jan-20	Feb	2001-02-19	6-9	206	205	93	Serbia				
+52744	Serbian-KLS	2019 - 2020	International	Matija Belic	ZEM	25	649.3	98	187	26	61	63	81	38	94	32	76	108	34	13	10	285	Mar-20	May	2003-05-16	6-7	201	N/A		Serbia				
+52762	Serbian-KLS	2019 - 2020	International	Nemanja Popovic	BEO	22	503.3	101	204	5	27	43	76	39	53	41	72	113	28	8	26	250	Jan-20	Dec	2001-12-29	6-8	203	218	99	Serbia				
+52784	Serbian-KLS	2019 - 2020	International	Dusan Tanaskovic	ZEM	20	517.7	86	168	0	0	31	58	40	51	43	66	109	21	27	16	203	Jan-20	Feb	2001-02-23	6-10	208	228	103	Serbia				
+52792	Serbian-KLS	2019 - 2020	International	Djordje Pazin	SLOB	18	415.3	71	155	32	85	17	22	25	47	7	36	43	49	15	3	191	Jan-20	Mar	2001-03-31	6-6	198	181	82	Serbia				
+52794	Serbian-KLS	2019 - 2020	International	Bojan Tomasevic	DYNA	26	440.0	68	136	32	74	18	24	23	53	14	47	61	20	8	2	186	Jan-20	Jun	2001-06-20	6-8	203	220	100	Montenegro				
+52799	Serbian-KLS	2019 - 2020	International	Lazar Stefanovic	ZEM	26	537.4	59	163	34	101	30	40	25	54	11	42	53	35	13	3	182	Feb-20	Apr	2002-04-27	6-6	198	170	77	Serbia				
+52805	Serbian-KLS	2019 - 2020	International	Gregor Glas	DYNA	23	457.1	52	153	29	99	31	39	45	70	12	47	59	31	17	1	164	Jan-20	Apr	2001-04-29	6-6	198	179	81	Slovenia				
+52809	Serbian-KLS	2019 - 2020	International	Karlo Matkovic	BEO	26	354.9	62	115	0	1	25	44	41	85	32	53	85	12	15	29	149	Jan-20	Mar	2001-03-30	6-10	208	222	101	Bosnia and Herzegovina				
+52810	Serbian-KLS	2019 - 2020	International	Lazar Vasic	TAM	25	431.0	53	130	29	76	14	20	27	36	4	30	34	35	9	3	149	Jan-20	Jan	2001-01-03	6-3	191	180	82	Serbia				
+52825	Serbian-KLS	2019 - 2020	International	Marko Pavicevic	TAM	22	285.3	44	90	4	10	25	48	19	54	12	45	57	9	7	4	117	Jan-20	May	2001-05-08	6-10	208	220	100	Serbia				
+52826	Serbian-KLS	2019 - 2020	International	Marko Kljajevic	BEO	22	401.9	44	115	18	62	11	13	15	35	10	42	52	15	13	3	117	Jan-20	May	2001-05-04	6-7	201	190	86	Montenegro				
+52831	Serbian-KLS	2019 - 2020	International	Aleksa Markovic	BEO	20	372.2	43	86	6	19	22	47	24	37	34	55	89	16	11	3	114	Jan-20	Feb	2001-02-23	6-5	196	N/A		Serbia				
+52838	Serbian-KLS	2019 - 2020	International	Stefan Agoc	NOV	15	292.9	35	72	4	18	24	39	13	40	15	21	36	11	7	4	98	Feb-20	May	2002-05-27	6-7	201	210	95	Serbia				
+52851	Serbian-KLS	2019 - 2020	International	Marko Brekic	BEO	14	186.7	24	74	11	42	11	13	7	30	4	26	30	10	7	0	70	Jan-20	Nov	2001-11-08	6-6	198	207	94	Serbia				
+52854	Serbian-KLS	2019 - 2020	International	Ranko Kumovic	NOV	16	325.3	19	51	9	24	11	15	14	41	5	25	30	12	10	4	58	Feb-20	Feb	2002-02-16	6-6	198	N/A		Serbia				
+52865	Serbian-KLS	2019 - 2020	International	Dordije Jovanovic	ZEM	15	150.0	15	40	5	19	5	8	1	28	6	11	17	5	3	1	40	Mar-20	May	2003-05-15	6-6	198	N/A		Montenegro				
+52869	Serbian-KLS	2019 - 2020	International	Milos Vicentic	BEO	10	64.7	7	17	2	8	3	4	4	11	3	11	14	2	0	1	19	Jan-20	Mar	2001-03-13	6-7	201	N/A		Serbia				
+52871	Serbian-KLS	2019 - 2020	International	Vladan Music	BEO	14	107.8	4	19	1	8	7	10	8	29	2	8	10	9	6	1	16	Jan-20	Feb	2001-02-06	6-4	193	195	88	Serbia				
+52962	Slovakian-Extraliga	2019 - 2020	International	Filip Rakai	SNV	10	66.2	7	21	2	13	3	4	3	14	0	6	6	2	3	1	19	Jan-20	Mar	2001-03-12	6-5	196	N/A		Slovakia				
+53036	Slovenian-SKL	2019 - 2020	International	Jan Copot	POL	12	183.9	22	48	9	22	4	6	13	25	7	14	21	16	2	1	57	Jan-20	Oct	2001-10-09	6-6	198	N/A		Slovenia				
+53039	Slovenian-SKL	2019 - 2020	International	Stepan Dmitrievic Gontar	ZLA	14	153.7	25	46	2	6	4	7	10	18	17	23	40	3	4	8	56	Feb-20	Apr	2002-04-02	6-9	206	N/A		Slovenia				
+53054	Slovenian-SKL	2019 - 2020	International	Bine Prepelic	DOM	12	115.7	5	22	0	10	1	4	6	21	3	24	27	4	4	2	11	Jan-20	Aug	2001-08-05	6-7	201	212	96	Slovenia				
+53055	Slovenian-SKL	2019 - 2020	International	Iztok Goltnik	POL	12	76.8	3	14	1	5	2	2	3	10	2	8	10	3	2	2	9	Jan-20	Sep	2001-09-01	6-5	196	N/A		Slovenia				
+53358	Spanish-ACB	2019 - 2020	International	Usman Garuba	RMB	24	402.5	43	78	4	13	15	27	33	44	38	89	127	13	11	21	105	Feb-20	Mar	2002-03-09	6-8	203	220	100	Spain				
+53424	Spanish-ACB	2019 - 2020	International	Javi Garcia	ZAR	16	81.9	6	23	2	8	3	4	10	10	1	2	3	7	2	0	17	Jan-20	Apr	2001-04-06	6-2	188	N/A		Spain				
+53482	Swedish-Basketligan	2019 - 2020	International	Pelle Larsson	BCLF	26	519.5	80	151	11	42	26	42	35	41	32	42	74	50	22	17	197	Jan-20	Feb	2001-02-23	6-5	196	185	84	Sweden				
+53629	Swiss-LNA	2019 - 2020	International	Haris Jusovic	LUZ	15	197.0	26	59	0	2	7	17	11	39	19	27	46	7	1	4	59	Feb-20	Oct	2002-10-11	6-8	203	N/A		Switzerland				
+53632	Swiss-LNA	2019 - 2020	International	Marco Mouron	RIV	17	194.0	19	53	7	24	12	19	23	30	2	8	10	19	7	0	57	Jan-20	Jun	2001-06-19	6-2	188	N/A		Switzerland				
+53641	Swiss-LNA	2019 - 2020	International	Mirnes Ganic	LUZ	15	229.0	15	33	6	18	8	14	16	35	4	14	18	7	13	0	44	Jan-20	Dec	2001-12-25	6-2	188	N/A		Switzerland				
+53644	Swiss-LNA	2019 - 2020	International	Harry Leucio	LUZ	17	158.0	10	34	5	20	5	6	12	9	4	5	9	8	6	1	30	Jan-20	Jun	2001-06-22	6-3	191	N/A		Switzerland				
+53648	Swiss-LNA	2019 - 2020	International	Kevin Martina	FRI	10	75.0	10	21	2	6	4	8	13	5	4	14	18	5	2	1	26	Jan-20	Apr	2001-04-14	6-8	203	N/A		Switzerland				
+53651	Swiss-LNA	2019 - 2020	International	Mirza Ganic	LUZ	15	196.0	9	28	4	18	2	7	8	31	4	16	20	11	6	0	24	Jan-20	Dec	2001-12-25	6-4	193	N/A		Switzerland				
+53653	Swiss-LNA	2019 - 2020	International	Magnus Obim	LUZ	16	138.0	8	25	2	14	4	8	11	17	5	6	11	6	6	0	22	Jan-20	Apr	2001-04-12	6-3	191	N/A		Switzerland				
+53779	Turkish-BSL	2019 - 2020	International	Alperen Sengun	BVS	22	296.7	46	90	0	10	17	29	19	29	31	54	85	14	11	8	109	Feb-20	Jul	2002-07-25	6-9	206	N/A		Turkey				
+53798	Turkish-BSL	2019 - 2020	International	Furkan Haltali	BVS	20	235.5	27	49	0	0	14	25	11	47	27	31	58	8	8	5	68	Feb-20	Dec	2002-12-02	6-10	208	N/A		Turkey				
+53824	Turkish-BSL	2019 - 2020	International	Omer Ilyasoglu	EFE	13	93.6	15	30	8	15	0	0	14	9	4	7	11	17	3	0	38	Jan-20	Jan	2001-01-01	6-5	196	188	85	Turkey				
+53827	Turkish-BSL	2019 - 2020	International	Mustafa Kurtuldum	EFE	13	76.4	14	34	4	14	2	3	4	10	2	9	11	7	1	0	34	Jan-20	May	2001-05-10	6-5	196	N/A		Turkey				
+53844	Turkish-BSL	2019 - 2020	International	Atakan Erdek	BVS	14	92.4	6	18	0	5	1	2	7	12	0	9	9	8	1	0	13	Jan-20	Jun	2001-06-26	6-4	193	N/A		Turkey				
+53934	Ukrainian-Superleague	2019 - 2020	International	Igor Sergeev	SCM	22	189.1	25	51	3	10	6	16	11	39	15	20	35	5	3	7	59	Jan-20	Aug	2001-08-04	6-10	208	N/A		Ukraine				

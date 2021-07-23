@@ -1,0 +1,24 @@
+PER (Performance Efficiency Rate)
+
+PER = (1 / [MIN]) *([ThreePM] 
+     + (2/3) * [AST]
+     + (2 - [Factor_PER] * (445 / 802)) * [FGM]
+     + ([FTM] *0.5 * (1 + (1 - (445 / 802)) + (2/3) * (445 / 802)))
+     - [VOP_PER] * [TOV]
+     - [VOP_PER] * [DRB%_PER] * ([FGA] - [FGM])
+     - [VOP_PER] * 0.44 * (0.44 + (0.56 * [DRB%_PER])) * (FTA - [FTM])
+     + [VOP_PER] * (1 - [DRB%_PER]) * ([REB] - ORB)
+     + [VOP_PER] * [DRB%_PER] * ORB
+     + [VOP_PER] * [STL]
+     + [VOP_PER] * [DRB%_PER] * BLK
+     - [PF] * ((LOG([FTM]) / LOG([PF])) - 0.44 * (LOG([FTA]) / LOG([PF])) * [VOP_PER]))
+	 
+Most of the terms in the formula are pretty straightforward, but some less obvious ones are explained below:
+
+Factor_PER = 2/3 - (0.5 * (LOG([AST])/LOG([FGM]))) / (2* (LOG([FGM])/LOG([FTM])))
+VOP_PER    = LOG([PTS]) / (LOG([FGA]) - LOG([ORB]) + LOG([TOV]) + 0.44 * LOG([FTA]))
+DRB%_PER%   = (LOG([REB]) - LOG([ORB])) / LOG([REB])
+
+##########################################
+It is one of the best metrics to define the comparison between the players.
+##########################################

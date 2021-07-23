@@ -1,0 +1,11 @@
+There are 2 metrics where we are judging the age of the players against, which can hep in our prediction about which age range players have outperformed and are suitable for playing in the next season.
+
+Across all ages with a bin size of 5, the visualistion depicts the personal efficiency rate of a player which is calculated by the formula provided in the adjacent folder.
+the Average PER across all the enteries is 0.327.
+
+Second one is the 3 pointer accuracy where the average is 31.15%.
+
+It is a fact, according to a study, that if the players in a team shoot 3 pointer shots in the game out of which just 35% lead to a score, the total the team would make at the end of the play will still be higher than than the case where they'll ust be using 2 pointers. Hence, taking a closer look at the player who attempts a high number of 3 pointers but the efficiency is not that great and the ones who target a low percent of 3 point shots but the accuracy is above 95%, both the cases, if taken into account, would help the team coach know which area to target. 
+
+Now, if a comparison is made among various age groups, knowing the average in both cases, it clearly denotes, though the 3 point shots accuracy is improving with experience, but PER is governed by other factors as well and it's the best for the players who are aged between 25 and 40, which does make sense, since this is the range where the agility, speed, versatility of a player is the maximum. 
+

@@ -1,0 +1,15 @@
+1. Which players focus more on 3 pointers and what is the level of accuracy linked with 3 pointers for each of the players? 
+
+2. Which player outshines everyone else in each of the seasons?
+						-> PER (Performance Efficiency Rate)
+3. Information about the players	
+						-> Age
+						-> Height
+						-> Weight
+						-> Total Games Played
+						
+4. Which is the  best team in each of the leagues and each of the seasons?
+
+5. Since, season is placed at the very outside of the Venn diagram, it should definitely be one of the filters to filter out rest of the stats.
+
+6. Information about how many teams were in a cluster in respective leagues and stages.
